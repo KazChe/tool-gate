@@ -109,6 +109,13 @@ constant for three of the four tools (0.00, 2.00, 3.00) and varied only for
 `cancel_subscription` (1.04 to 2.60, tracking `effective`), so for this tool
 set it could be a lookup table with one exception.
 
+## Video
+
+`runs/demo.json` and `runs/demo.log` are a live `tg-demo` run of dw-01, dw-02,
+and cs-08. A short video rendered from that artifact (Remotion, in a separate
+repo) accompanies the post; it shows the same three round trips with the
+answers, the fired rules, and the steer and deny text as captured here.
+
 ## Commands
 
 ```bash
