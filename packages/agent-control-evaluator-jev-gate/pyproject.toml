@@ -1,0 +1,22 @@
+[project]
+name = "agent-control-evaluator-jev-gate"
+version = "0.1.0"
+description = "TypeSafe Jev evaluator for Agent Control that judges an agent's proposed tool call against the conversation and decides deny, steer, or observe"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "Apache-2.0" }
+dependencies = [
+    "agent-control-evaluators==8.8.0",
+    "agent-control-models==8.8.0",
+    "typesafe-sdk==0.7.1",
+]
+
+[project.entry-points."agent_control.evaluators"]
+"typesafe.gate" = "agent_control_evaluator_jev_gate.evaluator:JevGateEvaluator"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agent_control_evaluator_jev_gate"]
