@@ -114,9 +114,10 @@ set it could be a lookup table with one exception.
 `runs/demo.json` and `runs/demo.log` are a live `tg-demo` run of dw-01, dw-02,
 and cs-08. The post,
 [A typed judgment where the plane only had a score](https://untounium.dev/posts/a-typed-judgment-where-the-plane-only-had-a-score),
-embeds a short [video](https://dhbtuus86mod.cloudfront.net/tool-gate-teaser.mp4)
-rendered from that artifact; the source is in
+embeds a short video rendered from that artifact; the source is in
 [agent-control-tuts-remotion](https://github.com/KazChe/agent-control-tuts-remotion).
+
+[![The steer round trip: the customer asks, Jev answers five questions, the policy writes the sentence, the agent asks](docs/tool-gate-teaser.png)](https://dhbtuus86mod.cloudfront.net/tool-gate-teaser.mp4)
 
 ## Commands
 
